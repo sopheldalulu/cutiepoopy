@@ -49,12 +49,36 @@
                     <div class="main-column">
                         <section class="panel glass" id="about">
                             <div class="section-head"><h2><span class="icon-bubble">♡</span> about me</h2><span class="window-deco">○ ◇ ✕</span></div>
-                            <div class="about-layout"><div class="avatar-card"><div class="avatar-art">☁️<span>🌼</span></div><small>your photo here!</small></div><div><p class="hello">hi hi! i'm <strong data-edit="name">sophel</strong> <span class="wave">✧</span></p><p data-edit="about">i love collecting smiskis and cute keychains!</p><div class="mini-tags"><span>☁️ daydreamer</span><span>🌷 shy</span><span>🎧 music lover</span><span>🫧 playful</span></div></div></div>
+                            <div class="about-layout"><div class="avatar-card"><div class="avatar-art">☁️<span>🌼</span></div><small>your photo here!</small></div><div><p class="hello">hi hi! i'm <strong data-edit="name">sophel</strong> <span class="wave">✧</span></p><p data-edit="about">i love anime, horror, and playing games</p><div class="mini-tags"><span>☁️ glasses with a chance of delinquent</span><span>🌷 skip and loafer</span><span>🎧 noragami</span><span>🫧 tomodachi game</span></div></div></div>
                         </section>
 
-                        <section class="panel glass" id="interests"></section>
+                        <section class="panel glass" id="interests"><div class="section-head"><h2><span class="icon-bubble">✿</span> things i adore</h2><span class="window-deco">○ ◇ ✕</span></div><p class="section-note">a little collection of things that make me, me!</p><div class="interest-grid">
+                            <article class="interest-card peach"><div class="interest-emoji">🎶</div><h3>music</h3><p data-edit="musicInterest">i loveee jane remover, julie, and deftones! i also love listening to lucy bedroque and mymp!</p></article>
+                            <article class="interest-card mint"><div class="interest-emoji">🎮</div><h3>hobbies</h3><p data-edit="hobbyInterest">i love watching (horror) game playthroughs from youtubers like coryxkenshin and antonychenn! i also like dance ^^</p></article>
+                            <article class="interest-card lilac"><div class="interest-emoji">📚</div><h3>favorites</h3><p data-edit="favoritesInterest">i like books with a main action storyline! i really loved the percy jackson series and all the other series within that universe</p></article>
+                            <article class="interest-card blue"><div class="interest-emoji">🪼</div><p data-edit="obsessionInterest">meow man on webtoon lolz</p></article>
+                        </div></section>
+                    
+
+                    <section class="panel glass" id="diary"><div class="section-head"><h2><span class="icon-bubble">✎</span>little diary</h2><span class="window-deco">○ ◇ ✕</span></div><p class="section-note">small thoughts and updates</p><div id="diary-entries"></div></section>
+                    </div>
+
+                    <aside class="sidebar" aria-label="extras">
+                        <section class="widget glass now-widget"><div class="widget-title">☆ currently</div><div class="now-row"><span>🎧 listening</span><strong data-edit="listening">flash in the pan - jane remover</strong></div><div class="now-row"><span>🍓 carving</span><strong data-edit="craving">chesters hot fries</strong></div><div class="now-row"><span>🫧 mood</span><strong data-edit="mood">sophomore slump is real</strong></div><div class="now-row"><span>🌱 doing</span><strong data-edit="doing">making this site rn :p</strong></div></section>
+
+                        <section class="widget glass music-widget" aria-labelledby="player-heading"><div class="widget=title">♫ my little jukebox</div><div class="retro-player"></div><div class="retro-titlebar"><span>💿 <span id="player-heading">CD player.exe</span></span><span class="retro-window-buttons" aria-hidden="true">▁ □ ×</span></div><div class="retro-inside"><div class="disc-art" aria-hidden="true"><div class="disc">♫</div></div><div class="player-main"><div class="song-screen"><span id="track-name">select a song ♫</span></div><div class="player-progress"><span id="current-time">0:00</span><input id="seek" type="range" min="0" max="100" value="0" aria-label="Song progress"><span id="total-time">0:00</span></div><div class="player-buttons"><button type="button" id="previous" aria-label="Previous track">◀◀</button><button type="button" id="play-pause" aria-label="Play">▶</button><button type="button" id="next" aria-label="Next track">▶▶</button></div></div></div></div><p class="player-note">press play for a little soundtrack ♡</p><audio id="audio" preload="none"></audio></section>
+
+                        <section class="widget glass pixel-widget"><div class="widget-title">✿ virtual garden</div><div class="garden-art" aria-hidden="true">🌱 🌼 🍄<br>🌷 🪴 🌸</div><p>remember to drink water & get some sunshine today!</p><button id="grow-btn" class="tiny-button" type="button">water the flowers ♡</button><div id="garden-message" aria-live="polite"></div></section>
+
+                        <section class="widget glass" id="links"><div class="widget-title">☁ find me elsewhere</div><div id="social-links" class="social-links"></div><div class="guestbook-note">✉ say hi in my links!</div></section>
+                        <section class="widget glass little-stamp"><div>made of<br><strong>sunshine, pixels<br>& daydreams</strong></div><span>🫧</span></section>
+
+                    </aside>
+
                 </div>
             </main>
+            <footer class="footer glass"><span>✿ <span data-edit="siteName">little blue planet</span> © <span id="year"></span></span><span>made with ♡</span><a href="#home">back to top ↑</a></footer>
+            <p class="credits">Bubble effect inspired by mf2fm's Bubble Cursor Trail · Retro player inspired by june/loveberry, adilene, & 98.css</p>
         </div>
 
 </html>
