@@ -19,7 +19,7 @@ const MY_SITE = {
         { label: "📷 instagram", url: "https://www.instagram.com/sophdlu?dlrf=MXdkdnF2Y2hhZ2c1dg%3D%3D&utm_source=qr" },
         { label: "📌 pinterest", url: "https://pin.it/2AKNBpEp3" },
         { label: "💻 github", url: "https://github.com/sopheldalulu" },
-        { label: "✉ slack", url: "https://hackclub.enterprise.slack.com/team/U0AR2L81TEH" }
+        { label: "🏷️ slack", url: "https://hackclub.enterprise.slack.com/team/U0AR2L81TEH" }
     ],
     songs: [
     { name: "sakura - devon hendryx", path: "assets/sakura.mp3" },
