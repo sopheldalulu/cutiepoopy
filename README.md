@@ -1,5 +1,8 @@
-# customcutie
+# cutiepoopy
 my personal little nook of the internet i made for the hack club snowglobe weekend jam!!! fruitigeraero INSPIRED but i toned it down a little and made all the elements instead of using actual images for a more vector-ish effect?
+
+faq:
+why is the repo called cutiepoopy? -idk :/
 
 includes:
 -a music player with 4 of my favorite songs
