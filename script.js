@@ -3,7 +3,7 @@ const MY_SITE = {
     name: "sophel",
     intro: "just a mini intro page i made",
     about: "tibetan american, i like coding(sometimes)",
-    musicInterest: "i loveee jane remover, julie, and deftones! i also love listening to lucy bedroque and mymp! D4AJO3Y0MK00Y5",
+    musicInterest: "i loveee jane remover, wisp, and deftones! i also love listening to lucy bedroque, julie, and mymp!",
     hobbyInterest: "i love watching (horror) game playthroughs from youtubers like coryxkenshin and antonychenn! i also like dance ^^",
     favoritesInterest: "i like books with a main action storyline! i really loved the percy jackson series and all the other series within that universe",
     obsessionInterest: "meow man on webtoon lolz",
@@ -22,11 +22,10 @@ const MY_SITE = {
         { label: "✉ slack", url: "https://hackclub.enterprise.slack.com/team/U0AR2L81TEH" }
     ],
     songs: [
-    { name: "One Shot One Kill – The Cat's Whiskers", path: "https://files.catbox.moe/fegzmf.mp3" },
-    { name: "Shooting Arrows – The Cat's Whiskers", path: "https://files.catbox.moe/zj81lr.mp3" },
-    { name: "4 REAL – The Cat's Whiskers", path: "https://files.catbox.moe/fxd8fo.mp3" },
-    { name: "My Sweetest Love – The Cat's Whiskers", path: "https://files.catbox.moe/qe4he5.mp3" },
-    { name: "Mercy On Me – The Cat's Whiskers", path: "https://files.catbox.moe/w7nnf9.mp3" }
+    { name: "sakura - devon hendryx", path: "assets/sakura.mp3" },
+    { name: "angles in camo - jane remover", path: "assets/angelsincamo.mp3" },
+    { name: "serpentine - wisp", path: "assets/serpentine.mp3" },
+    { name: "swerve city - deftones", path: "assets/swervecity.mp3" }
   ],
   bubbleCursor: true
 };
